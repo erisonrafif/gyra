@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+#bg {
+    
+}
+body {
+    height: 100vh;
+    max-width: 100%;
+    background-color: #242E50;
+    background-image: url(bg.png);
+    z-index: -1;
+    background-size: cover;
+.header {
+    /*position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;*/
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    padding: 0 50px 0 15px;
+}
+/* TULISAN */
+.GYRA {
+}
+.GYRA h1 {
+    color: white;
+    font-size:200%;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 5px;
+    padding-left: 50px;
+}
+/* TULISAN DONE */
+/* ---------------------------- */
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+.logo img{
+    width: 10vh;
+}
+/* LOGO DONE */
+/* ---------------------------- */
+/* ABOUT */
+.about{
+}
+.about a{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 1em;
+    font-size: larger;
+}
+/* ABOUT DONE */
+
+.konten {
+    height: 80%;
+    max-height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.konten div {
+    width: 30EM;
+    align-self: center;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.isi2 img {
+    height: 320px;
+    width: 320px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer h1 {
+    font-size: small;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+}
