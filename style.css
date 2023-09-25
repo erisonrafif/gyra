@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    height: 100vh;
+    max-height: 100%;
+    max-width:100%;
+    background-color: #242E50;
+    background-image: url(bg.png);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    /*position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;*/
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+/* TULISAN */
+.GYRA {
+    width: 33.34%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.GYRA h1 {
+    color: white;
+    font-size:150%;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.GYRA h1:hover {
+    color:#FF4C4C;
+    transition: .2s;
+}
+/* TULISAN DONE */
+/* ---------------------------- */
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    width: 33.33%;
+}
+.logo img{
+    width: 10vh;
+}
+
+.logo img:hover {
+    background-color: #FF4C4C;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+/* LOGO DONE */
+/* ---------------------------- */
+/* ABOUT */
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    width: 33.33%;
+
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border-left: 10px;
+    font-size: larger;
+}
+
+a:hover {
+    color: #FFC700;
+    transition: .2s;
+}
+
+@media (max-width: 30%) {
+    .about {
+        display: flex;
+        align-content: row;
+    }
+
+    .logo {
+        size: 1px;
+    }
+    
+}
+/* ABOUT DONE */
+
+.konten {
+    height: 80%;
+    max-height: 100%;
+    width: auto;
+    display: flex;
+}
+
+.konten div {
+    width: 30EM;
+    align-self: center;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.isi2 img {
+    height: 320px;
+    width: 320px;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trademark {
+    font-size:xx-small;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    padding-left: 4em;
+}
+
+.footer img {
+    width: 2em;
+    height: 2em;
+    padding : 1em;
+}
+
+.footer img:hover {
+    background-color: #FF4C4C;
+    transition: .1s;
+    border-radius: 20px;
+}
