@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    height: 100vh;
+    max-height: 100%;
+    max-width:100%;
+    background-color: #242E50;
+    background-image: url(bg.png);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    /*position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;*/
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+/* TULISAN */
+.GYRA {
+    width: 33.34%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.GYRA h1 {
+    color: white;
+    font-size:150%;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.GYRA h1:hover {
+    color:#FF4C4C;
+    transition: .2s;
+}
+/* TULISAN DONE */
+/* ---------------------------- */
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    width: 33.33%;
+}
+.logo img{
+    width: 10vh;
+}
+
+.logo img:hover {
+    background-color: #FF4C4C;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+/* LOGO DONE */
+/* ---------------------------- */
+/* ABOUT */
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    width: 33.33%;
+
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    border-left: 10px;
+    font-size: larger;
+    padding: 10px;
+}
+
+a:hover {
+    color: #FFC700;
+    transition: .2s;
+}
+
+/* ABOUT DONE */
+
+.intro {
+    height: 10%;
+    color: white;
+    font-family:'Poppins', sans-serif;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    height: 55%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto div {
+    height: 100%;
+    width: 33.34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto1 {
+}
+.foto div img {
+    display: flex;
+    width: 90%;
+    height: 90%;
+    max-width: fit-content;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.nama {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.nama div {
+    width: 33.34%;
+    display: flex;
+    justify-content: center;
+}
+
+.nama div a {
+    color: white;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.nama div a:hover {
+    color: #FFC700;
+    transition: .3s;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.trademark {
+    font-size:xx-small;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    padding-left: 4em;
+}
+
+.footer img {
+    width: 2em;
+    height: 2em;
+    padding : 1em;
+}
+
+.footer img:hover {
+    background-color: #FF4C4C;
+    transition: .2s;
+    border-radius: 20px;
+}
