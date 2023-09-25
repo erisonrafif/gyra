@@ -59,7 +59,7 @@ body {
 .logo img:hover {
     background-color: #FF4C4C;
     border-radius: 30px;
-    transition: .2s;
+    transition: .3s;
 }
 
 /* LOGO DONE */
