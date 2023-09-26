@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gyra Gym Shirts</title>
     <link rel="stylesheet" href = "style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -23,10 +25,13 @@
             </div>
             <!-- LOGO DONE-->
             <!-- LIST -->
-            <div class="about">
-                <a href="gyra.html">Home</a>
+            <div class="about" id="myabout">
+                <a class ="responsive" href="gyra.html">Home</a>
                 <a href="product.html">Product</a>
                 <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
             <!-- LIST DONE-->
         </nav>
@@ -51,62 +56,15 @@
         </div>
     </div>
     <!-- SELESAI-->
-
-</body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gyra Gym Shirts</title>
-    <link rel="stylesheet" href = "style.css">
-
-</head>
-
-<body> 
-    <!-- NAVBAR-->
-    <header class="header">
-        <nav class="navbar">
-            <!-- TULISAN GYRA-->
-            <div class="GYRA">
-                <h1> //GYRA. </h1>
-            </div>
-            <!-- TULISAN GYRA DONE-->
-            <!-- LOGO-->
-            <div class = "logo">
-                <img src="logo.png">
-            </div>
-            <!-- LOGO DONE-->
-            <!-- LIST -->
-            <div class="about">
-                <a href="gyra.html">Home</a>
-                <a href="product.html">Product</a>
-                <a href="about.html">About</a>
-            </div>
-            <!-- LIST DONE-->
-        </nav>
-    </header>
-
-    <div class = "konten">
-        <div class = "isi1">
-            <h1>Forge your Body,<br> Define your Legacy.</h1>
-        </div>
-        <div class="isi2">
-
-        </div>
-    </div>
-
-    <div class = "footer">
-        <div class = "trademark">
-            <h1>Gyra 2023.</h1>
-        </div>
-        <div class = "ig">
-            <a href ="https://www.instagram.com/startgyra/">
-                <img src="ig.png" alt="ig"></a>
-        </div>
-    </div>
-    <!-- SELESAI-->
-
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myabout");
+        if (x.className === "about") {
+            x.className += " responsive";
+        } else {
+            x.className = "about";
+        }
+    }
+    </script>
 </body>
 </html>

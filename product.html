@@ -13,6 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gyra Gym Shirts</title>
     <link rel="stylesheet" href = "style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -31,10 +33,13 @@
             </div>
             <!-- LOGO DONE-->
             <!-- LIST -->
-            <div class="about">
-                <a href="gyra.html">Home</a>
+            <div class="about" id="myabout">
+                <a class ="responsive" href="gyra.html">Home</a>
                 <a href="product.html">Product</a>
                 <a href="about.html">About</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
             <!-- LIST DONE-->
         </nav>
@@ -45,7 +50,6 @@
             <h1>No Product yet, <br> Stay tune! </h1>
         </div>
         <div class="isi2">
-
         </div>
     </div>
 
@@ -59,10 +63,16 @@
         </div>
     </div>
     <!-- SELESAI-->
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myabout");
+            if (x.className === "about") {
+                x.className += " responsive";
+            } else {
+                x.className = "about";
+            }
+        }
+    </script>
 
-</body>
-</html>
-<body>
-    
 </body>
 </html>
