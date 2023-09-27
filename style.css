@@ -54,6 +54,8 @@ body {
 }
 .logo img{
     width: 10vh;
+    max-width: 30%;
+    height: 30%;
 }
 
 .logo img:hover {
@@ -73,7 +75,6 @@ body {
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    position: relative;
     border-left: 10px;
     font-size: larger;
 }
@@ -159,7 +160,7 @@ a:hover {
     display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .about {
         display: block;
     }
@@ -170,10 +171,11 @@ a:hover {
     .about a.icon {
     float: right;
     display: block;
+    padding-right: 50px ;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
     .about.responsive {
         position:relative;
     }
@@ -186,5 +188,81 @@ a:hover {
     float: none;
     display: block;
     text-align: left;
+    }
+
+    .GYRA h1 {
+        color: white;
+        font-size:100%;
+        font-family:'Poppins', sans-serif;
+        letter-spacing: 5px;
+        width: 10vh;
+        max-width: 30%;   
+    }
+
+    .fotonama {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        max-height: 70%;
+    }
+
+
+    .fotonama .grup1 {
+        width: 55%;
+    }
+
+    .fotonama .grup2 {
+        width: 55%;
+    }
+
+    .fotonama .grup3 {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about.responsive {
+        position:relative;
+    }
+    .about.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+    .about.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+    .GYRA h1 {
+        color: white;
+        font-size:120%;
+        font-family:'Poppins', sans-serif;
+        letter-spacing: 5px;
+        width: 10vh;
+        max-width: 30%;
+        
+    }
+
+    .fotonama {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: 70%;
+    }
+
+    .fotonama .grup1 {
+        width: 50%;
+    }
+
+    .fotonama .grup2 {
+        width: 50%;
+    }
+
+    .fotonama .grup3 {
+        width: 50%;
     }
 }
