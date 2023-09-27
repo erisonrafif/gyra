@@ -75,7 +75,6 @@ body {
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    border-left: 10px;
     font-size: larger;
 }
 
@@ -112,6 +111,10 @@ a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .trademark {
@@ -124,14 +127,21 @@ a:hover {
 .footer img {
     width: 2em;
     height: 2em;
-    padding : 1em;
 }
 
 .footer img:hover {
     background-color: #FF4C4C;
-    transition: .1s;
+    transition: .2s;
     border-radius: 20px;
+    padding: 10px;
 }
+.footer .ig {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 
 .about {
     overflow: hidden;
@@ -145,8 +155,13 @@ a:hover {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: larger;
+    font-size: large;
 }
+
+.ig a {
+    font-size: large;
+}
+
 
 .about a:hover {
     color: #FFC700;
@@ -172,6 +187,13 @@ a:hover {
     float: right;
     display: block;
     padding-right: 50px ;
+    }
+
+    div a {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: x-large;
     }
 }
 
