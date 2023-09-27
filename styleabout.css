@@ -223,7 +223,7 @@ div a {
     color: white;
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    font-size: larger;
+    font-size: x-large;
 }
 
 
@@ -293,6 +293,19 @@ div a {
     justify-content: space-between;
     align-items: center;
     height: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer .ig {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ig a {
+    font-size: large;
 }
 
 .trademark {
@@ -305,13 +318,13 @@ div a {
 .footer img {
     width: 2em;
     height: 2em;
-    padding : 1em;
 }
 
 .footer img:hover {
     background-color: #FF4C4C;
     transition: .2s;
     border-radius: 20px;
+    padding: 10px;
 }
 
 
