@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 body {
-    height: 100vh;
+    height: 120vh;
     max-height: 100%;
     max-width:100%;
     background-color: #242E50;
@@ -128,7 +128,7 @@ a:hover {
 /* NAMAAAAAAAAAAAAAAAAAAAa  */
 
 .fotonama {
-    height: 70%;
+    height: 50%;
     max-height: 100%;
     width: 100%;
     display: flex;
@@ -227,66 +227,6 @@ div a {
 }
 
 
-/* .fotonama {
-    height: 70%;
-}
-
-.foto {
-    height: 75%;
-    max-height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.foto div {
-    height: 100%;
-    width: 33.34%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.foto1 img {
-    display: flex;
-    justify-content: space-between;
-}
-
-.foto div img {
-    width: 90%;
-    height: 90%;
-    max-width: fit-content;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    border-radius: 20%;
-}
-
-.nama {
-    height: 15%;
-    display: flex;
-    justify-content: space-between;
-    align-self: center;
-}
-
-.nama div {
-    width: 33.34%;
-    display: flex;
-    justify-content: center;
-}
-
-.nama div a {
-    color: white;
-    font-size: x-large;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-}
-
-.nama div a:hover {
-    color: #FFC700;
-    transition: .3s;
-} */
 
 .footer {
     display: flex;
@@ -298,7 +238,7 @@ div a {
     right: 0;
 }
 .footer .ig {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -316,19 +256,68 @@ div a {
 }
 
 .footer img {
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
-.footer img:hover {
+/* .footer img:hover {
     background-color: #FF4C4C;
     transition: .2s;
     border-radius: 20px;
     padding: 10px;
+} */
+
+/* HOVER UNTUK LOGO */
+#insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 15px;
+    padding: 10px;
+    transition: .2s;
 }
 
+#shopee:hover {
+    background-color: #ee4d2d;
+    border-radius: 15px;
+    padding: 10px;
+    transition: .2s;
+}
 
-/* MEDIA HP */
+#tokped:hover {
+    background-color: #41b549;
+    border-radius: 15px;
+    padding: 10px;
+    transition: .2s;
+}
+
+#wa:hover {
+    background-color: #25d366;
+    border-radius: 15px;
+    padding: 10px;
+    transition: .2s;
+}
+/* HOVER UNTUK LOGO SELESAI */
+
+
+
+/* BAGIAN BAWAH */
+
+.information {
+    height: 10%;
+}
+
+.information div {
+    color: white;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* BAGIAN BAWAH ISI SELESAI */
+
+
+
+/* MEDIA HP  RESPONSIVE*/
 .about {
     overflow: hidden;
     display: flex;
@@ -369,6 +358,13 @@ div a {
     float: right;
     display: block;
     padding-right: 50px ;
+    }
+
+    .footer .ig {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
@@ -463,3 +459,68 @@ div a {
         width: 50%;
     }
 }
+
+/* MEDIA HP SELESAI */
+
+
+
+/* .fotonama {
+    height: 70%;
+}
+
+.foto {
+    height: 75%;
+    max-height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto div {
+    height: 100%;
+    width: 33.34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foto1 img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto div img {
+    width: 90%;
+    height: 90%;
+    max-width: fit-content;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.nama {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.nama div {
+    width: 33.34%;
+    display: flex;
+    justify-content: center;
+}
+
+.nama div a {
+    color: white;
+    font-size: x-large;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.nama div a:hover {
+    color: #FFC700;
+    transition: .3s;
+} */

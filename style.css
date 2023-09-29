@@ -69,6 +69,9 @@ body {
 /* ABOUT */
 .about{
     width: 33.33%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 .about a{
@@ -77,6 +80,15 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: larger;
 }
+
+/* .about a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+} */
 
 a:hover {
     color: #FFC700;
@@ -125,38 +137,53 @@ a:hover {
 }
 
 .footer img {
-    width: 2em;
-    height: 2em;
+    width: 1.5em;
+    height: 1.5em;
 }
 
-.footer img:hover {
+/* .footer img:hover {
     background-color: #FF4C4C;
     transition: .2s;
     border-radius: 20px;
     padding: 10px;
-}
+} */
+
 .footer .ig {
-    width: 50%;
+    width: 30%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
 
-
-.about {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
+#insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
 }
 
-.about a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-size: large;
+#shopee:hover {
+    background-color: #ee4d2d;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
 }
+
+#tokped:hover {
+    background-color: #41b549;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+#wa:hover {
+    background-color: #25d366;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+
 
 .ig a {
     font-size: large;
@@ -239,6 +266,12 @@ a:hover {
 
     .fotonama .grup3 {
         width: 55%;
+    }
+    .footer .ig {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
