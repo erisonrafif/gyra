@@ -97,45 +97,19 @@ a:hover {
 
 /* ABOUT DONE */
 
-.konten {
-    height: 80%;
-    max-height: 100%;
-    width: auto;
-    display: flex;
-    justify-content: space-around;
-}
 
-.konten div {
-    height: 90%;
-    align-self: center;
-    font-family: 'Poppins', sans-serif;
-}
 
-.isi1 {
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-}
 
-.isi1 img {
-    width: 400px;
-    height: 400px;
-    border-radius: 30px;
-    
-}
-
-h1 {
-    color: white;
-}
-
-.isi2 {
-    width: 30%;
-}
 
 .isi2 img {
 }
 
+.list-produk {
+    list-style: none;
 
+}
+
+    
 .footer {
     display: flex;
     justify-content: space-between;
@@ -337,4 +311,56 @@ h1 {
     .fotonama .grup3 {
         width: 50%;
     }
+}
+
+
+.isi1 {
+    display: flex;
+    align-items: center;
+    width: 50rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi1 img {
+    width: 25rem;
+    height: 25rem;
+    border-radius: 30px;
+    
+}
+
+h1 {
+    color: white;
+}
+
+.isi2 {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+}
+.list-produk  {
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+a {
+    font-size: x-large;
+    color: white;
+    text-decoration: none;
+}
+
+.konten {
+    height: 80%;
+    max-height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.konten div {
+    height: 90%;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
 }
