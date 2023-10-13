@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    height: 100vh;
+    max-height: 100%;
+    max-width:100%;
+    background-color: #242E50;
+    background-image: url(bg.png);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    /*position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: aqua;*/
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+}
+/* TULISAN */
+.GYRA {
+    width: 33.34%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.GYRA h1 {
+    color: white;
+    font-size:150%;
+    font-family:'Poppins', sans-serif;
+    letter-spacing: 5px;
+}
+
+.GYRA h1:hover {
+    color:#FF4C4C;
+    transition: .2s;
+}
+/* TULISAN DONE */
+/* ---------------------------- */
+/* LOGO */
+.logo {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    width: 33.33%;
+}
+.logo img{
+    width: 10vh;
+    max-width: 30%;
+    height: 30%;
+}
+
+.logo img:hover {
+    background-color: #FF4C4C;
+    border-radius: 30px;
+    transition: .2s;
+}
+
+/* LOGO DONE */
+/* ---------------------------- */
+/* ABOUT */
+.about{
+    width: 33.33%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.about a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+/* .about a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+} */
+
+a:hover {
+    color: #FFC700;
+    transition: .2s;
+}
+
+/* ABOUT DONE */
+
+.konten {
+    height: 80%;
+    max-height: 100%;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.konten div {
+    height: 90%;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.isi1 {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.isi1 img {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    
+}
+
+h1 {
+    color: white;
+}
+
+.isi2 {
+    width: 30%;
+}
+
+.isi2 img {
+}
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.trademark {
+    font-size:xx-small;
+    font-family:  'Poppins', sans-serif;
+    color: white;
+    padding-left: 4em;
+}
+
+.footer img {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+/* .footer img:hover {
+    background-color: #FF4C4C;
+    transition: .2s;
+    border-radius: 20px;
+    padding: 10px;
+} */
+
+.footer .ig {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#insta:hover {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+#shopee:hover {
+    background-color: #ee4d2d;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+#tokped:hover {
+    background-color: #41b549;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+#wa:hover {
+    background-color: #25d366;
+    border-radius: 20px;
+    padding: 10px;
+    transition: .2s;
+}
+
+
+
+.ig a {
+    font-size: large;
+}
+
+
+.about a:hover {
+    color: #FFC700;
+}
+
+.about a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+.about .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        display: block;
+    }
+    .about a:not(:first-child) {
+        display: none;
+    }
+
+    .about a.icon {
+    float: right;
+    display: block;
+    padding-right: 50px ;
+    }
+
+    div a {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        text-decoration: none;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about.responsive {
+        position:relative;
+    }
+    .about.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+    .about.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+    .GYRA h1 {
+        color: white;
+        font-size:100%;
+        font-family:'Poppins', sans-serif;
+        letter-spacing: 5px;
+        width: 10vh;
+        max-width: 30%;   
+    }
+
+    .fotonama {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        max-height: 70%;
+    }
+
+
+    .fotonama .grup1 {
+        width: 55%;
+    }
+
+    .fotonama .grup2 {
+        width: 55%;
+    }
+
+    .fotonama .grup3 {
+        width: 55%;
+    }
+    .footer .ig {
+        width: 60%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .about.responsive {
+        position:relative;
+    }
+    .about.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    }
+
+    .about.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+    .GYRA h1 {
+        color: white;
+        font-size:120%;
+        font-family:'Poppins', sans-serif;
+        letter-spacing: 5px;
+        width: 10vh;
+        max-width: 30%;
+        
+    }
+
+    .fotonama {
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: 70%;
+    }
+
+    .fotonama .grup1 {
+        width: 50%;
+    }
+
+    .fotonama .grup2 {
+        width: 50%;
+    }
+
+    .fotonama .grup3 {
+        width: 50%;
+    }
+}
