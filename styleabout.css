@@ -5,7 +5,7 @@ body {
     max-height: 100%;
     max-width:100%;
     background-color: #242E50;
-    background-image: url(bg.png);
+    background-image: url(picture/bg.png);
     z-index: -1;
     background-size: cover;
     background-repeat: no-repeat;
